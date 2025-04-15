@@ -1,5 +1,5 @@
 # TypingTest
-Typing Test hacker to get 14k+ wpm
+Typing Test hacker to get 14k+ wpm on certain sites
 
 
 ## How to run:
@@ -17,5 +17,8 @@ For humanbenchmark, I can easily get 14k WPM as you don't have to wait for the s
 EDIT (before it's released is crazy): I added auto scrolling, so now if the test has text that scrolls as you type, it can adapt to that. 
 EDIT 2: This also works fairly good on monkeytype, just make sure you're using the DARK theme as that makes the words you already typed darker and it allows for the bot to ignore previous lines, which is really handy. I got about 1206 WPM and 97% accuracy. Tesseract has a weird thing with not being able to process some text very well, I"m not sure how to fix it currently but I might come back later if I figure out how
 
+I am planning to add functionality to other sites as well, however I doubt it would be too possible with standard Tesseract OCR for python unless I find a way to unhighlight the currently-typed words (a common feature for most typing websites), since Tesseract is unable to identify these unusually formatted sections.
+
 ## Script performance:
 ![image](https://github.com/user-attachments/assets/379c3b65-ead4-4f06-aae1-8f99bc5d06ac)
+
